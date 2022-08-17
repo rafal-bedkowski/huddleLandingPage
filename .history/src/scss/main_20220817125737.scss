@@ -19,19 +19,17 @@ body {
 }
 
 .container{
-  background-image: url(../assets/img/bg-mobile.svg);
-  background-repeat: no-repeat;
-  width: 100vw;
-  height: 100vh;
-  max-width: 100%;
-}
 
-.windows__container{
-  
-  &--img{
-    width: 18.8rem;
-    margin-left: 2.3rem;
-    padding-top: 3.55rem;
-  }
+    &__bg{
+      width: 100vw;
+      max-width: 100%;
+      margin: auto;
+      height: 100vh;
+      left: -100px;
+    
+      &--img{
+
+      }
+    }
 }
 
