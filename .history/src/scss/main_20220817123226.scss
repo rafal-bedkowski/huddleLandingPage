@@ -5,7 +5,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@0,600;1,400&display=swap');
 
 body {
-  background: $violet;
 display: flex;
   align-items: center;
   justify-content: center;
@@ -13,6 +12,7 @@ display: flex;
 }
 
 .container{
-
+  background-image: url(../assets/img/bg-mobile.svg);
+  background-repeat: no-repeat;
 }
 

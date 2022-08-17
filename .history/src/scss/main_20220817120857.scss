@@ -6,13 +6,13 @@
 
 body {
   background: $violet;
-display: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
 }
 
-.container{
-
+.bg__container{
+  max-width: 100%;
+  max-height: 100%;
 }
-
