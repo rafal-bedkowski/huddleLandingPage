@@ -20,18 +20,17 @@ body {
   font-family: Open Sans;
 }
 .button__container{
-  margin-top: 0.9rem;
+  margin-top: 1rem;
   font-family: Open Sans;
-  font-weight: 400;
-  font-size: 12px;
+  font-size: 400;
   max-width: 100%;
   border-radius: 20px;
-  width: 13rem;
+  width: 15rem;
   height: 5vh;
   border: none;
-  margin-left: 2.5rem;
   &--registry{
     color: $violet;
+    align-items: center;
   }
 }
 .container{
