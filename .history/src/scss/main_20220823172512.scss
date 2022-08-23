@@ -72,13 +72,9 @@ body {
     color: white;
     line-height: 1.4;
     @media(min-width:$desktop){
-      line-height: 1.;
-      font-weight: 600;
-      font-size: 33px;
-      width: 26rem;
-      font-family: Poppins;
-      font-weight: 600;
-      letter-spacing: 2px;
+      line-height: 1.8;
+      font-weight: 900;
+      
     }
   }
 }
@@ -134,7 +130,7 @@ body {
   &--img {
     width: 8.6rem;
     @media(min-width: $desktop){
-      width: 14rem;
+      width: 11rem;
     }
   }
 }
@@ -159,7 +155,7 @@ body {
     padding-top: 3.3rem;
     @media(min-width: $desktop){
       width: 47.7rem;
-      padding-top:7.1rem ;
+      padding-top:8.5rem ;
     }
   }
 }

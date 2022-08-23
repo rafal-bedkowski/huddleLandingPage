@@ -72,7 +72,7 @@ body {
     color: white;
     line-height: 1.4;
     @media(min-width:$desktop){
-      line-height: 1.;
+      line-height: 1.8;
       font-weight: 600;
       font-size: 33px;
       width: 26rem;
@@ -132,9 +132,9 @@ body {
   margin-left: 0.9rem;
 
   &--img {
-    width: 8.6rem;
+    width: 9.6rem;
     @media(min-width: $desktop){
-      width: 14rem;
+      width: 11rem;
     }
   }
 }

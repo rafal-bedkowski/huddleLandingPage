@@ -65,20 +65,15 @@ body {
   @media(min-width:$desktop){
     margin-left: 27rem;
     margin-top:-31.3rem;
-    
+    font-weight: 900;
   }
 
   &--text {
     color: white;
     line-height: 1.4;
     @media(min-width:$desktop){
-      line-height: 1.;
-      font-weight: 600;
-      font-size: 33px;
-      width: 26rem;
-      font-family: Poppins;
-      font-weight: 600;
-      letter-spacing: 2px;
+      line-height: 1.8;
+      
     }
   }
 }
@@ -134,7 +129,7 @@ body {
   &--img {
     width: 8.6rem;
     @media(min-width: $desktop){
-      width: 14rem;
+      width: 11rem;
     }
   }
 }
