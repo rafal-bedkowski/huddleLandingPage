@@ -66,13 +66,7 @@ body {
     line-height: 1.5;
   }
 }
-.list{
-  &__img{
-    &--element{
-      
-    }
-  }
-}
+
 .logo__container{
   margin-top: 1rem;
   margin-left: 0.9rem;
@@ -87,9 +81,15 @@ body {
   &__list{
     list-style: none;
     display: flex;
+    justify-content: space-between;
+    &--img{
+      align-items: center;
+      border: solid 1.5px;
+      border-radius: 55%;
+      color: white;
     }
   }
-
+}
 
 
 .windows__container{

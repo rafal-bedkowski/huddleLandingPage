@@ -66,13 +66,7 @@ body {
     line-height: 1.5;
   }
 }
-.list{
-  &__img{
-    &--element{
-      
-    }
-  }
-}
+
 .logo__container{
   margin-top: 1rem;
   margin-left: 0.9rem;
@@ -87,9 +81,16 @@ body {
   &__list{
     list-style: none;
     display: flex;
+    border-radius: 20px;
+    border-color: white;
+    &--img{
+      padding: 0.5rem;
+      color: white;
+     
     }
   }
 
+}
 
 
 .windows__container{
