@@ -4,7 +4,7 @@
 @import "modules/hello.scss";
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@0,600;1,400&display=swap');
 
-* {
+*{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -19,8 +19,7 @@ body {
   font-weight: 400;
   font-family: Open Sans;
 }
-
-.button__container {
+.button__container{
   margin-top: 0.9rem;
   font-family: Open Sans;
   font-weight: 400;
@@ -31,71 +30,63 @@ body {
   height: 5vh;
   border: none;
   margin-left: 2.5rem;
-
-  &--registry {
+  &--registry{
     color: $violet;
   }
 }
-
-.container {
+.container{
   background-image: url(../assets/img/bg-mobile.svg);
   background-repeat: no-repeat;
   width: 100vw;
   height: 100vh;
   max-width: 100%;
-
-  @media(min-width: $desktop) {
-    background-image: url(../assets/img/bg-desktop.svg );
-    margin-right: 4rem;
-    max-width: 100vw;
-    width: 100%;
+  @media(min-width: $desktop){
+    background-image: url(../assets/img/bg-desktop.svg);
+    max-width: 100%;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-position: -100px ;
+    background-size: cover;
   }
 }
 
-.CTA__container {
+.CTA__container{
   font-family: Poppins;
   font-weight: 600;
   text-align: center;
   width: 18rem;
   margin-left: 1.35rem;
   margin-top: 3.9rem;
-
-  &--text {
+  &--text{
     color: white;
     line-height: 1.4;
   }
 }
 
-.Paragraph__container {
+.Paragraph__container{
   font-weight: 400;
   text-align: center;
   width: 19rem;
   margin-top: 1.3rem;
-  margin-left: 1rem;
-
-  &--text {
+  margin-left:1rem;
+  &--text{
     color: white;
     line-height: 1.5;
   }
 }
 
 
-.list {
+.list{
   color: white;
   justify-content: space-evenly;
   padding-left: 2rem;
   padding-left: 2rem;
-
-  &__img {
+  &__img{
     padding: 0.2rem;
     border: solid 1.5px;
     border-radius: 50%;
     margin: 0.3rem;
     display: inline-block;
-
-    &--element {
+    &--element{
       padding-top: 0.19rem;
       padding-left: 0.33rem;
       width: 6vw;
@@ -103,37 +94,28 @@ body {
     }
   }
 }
-
-.logo__container {
-  @media(min-width: $desktop){
-    margin-top: 2rem;
-    margin-left: 3.7rem;
-  }
+.logo__container{
   margin-top: 1rem;
   margin-left: 0.9rem;
-
-  &--img {
+  &--img{
     width: 8.6rem;
-    @media(min-width: $desktop){
-      width: 11rem;
-    }
   }
 }
 
-.social {
+.social{
   margin-top: 3.5rem;
   margin-left: 5.3rem;
   margin-right: 3.5rem;
   margin-bottom: 5rem;
-}
+  }
 
 
 
-.windows__container {
+.windows__container{
   margin-left: 2.3rem;
-
-  &--img {
+  &--img{
     width: 18.8rem;
     padding-top: 3.3rem;
   }
 }
+

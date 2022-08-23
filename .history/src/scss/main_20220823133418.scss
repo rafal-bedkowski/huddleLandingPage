@@ -107,16 +107,13 @@ body {
 .logo__container {
   @media(min-width: $desktop){
     margin-top: 2rem;
-    margin-left: 3.7rem;
+    margin-left: 1.5rem;
   }
   margin-top: 1rem;
   margin-left: 0.9rem;
 
   &--img {
     width: 8.6rem;
-    @media(min-width: $desktop){
-      width: 11rem;
-    }
   }
 }
 
