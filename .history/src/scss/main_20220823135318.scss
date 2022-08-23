@@ -107,7 +107,7 @@ body {
 .logo__container {
   @media(min-width: $desktop){
     margin-top: 2rem;
-    margin-left: 1.7rem;
+    margin-left: 3.7rem;
   }
   margin-top: 1rem;
   margin-left: 0.9rem;
@@ -132,15 +132,15 @@ body {
 .windows__container {
   margin-left: 2.3rem;
   @media(min-width:$desktop){
-    margin-left:3rem;
+    margin-left:7.7rem;
   }
 
   &--img {
     width: 18.8rem;
     padding-top: 3.3rem;
     @media(min-width: $desktop){
-      width: 47.7rem;
-      padding-top:7.1rem ;
+      width: 44.7rem;
+      padding-top:4.8rem ;
     }
   }
 }
