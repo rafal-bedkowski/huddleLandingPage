@@ -61,20 +61,14 @@ body {
   width: 18rem;
   margin-left: 1.35rem;
   margin-top: 3.9rem;
-  text-align: left;
   @media(min-width:$desktop){
-    margin-left: 27rem;
-    margin-top:-31.3rem;
-    font-weight: 600;
+    margin-left:33.3rem;
+    margin-top:-1rem;
   }
 
   &--text {
     color: white;
     line-height: 1.4;
-    @media(min-width:$desktop){
-      line-height: 1.8;
-      
-    }
   }
 }
 
@@ -84,11 +78,7 @@ body {
   width: 19rem;
   margin-top: 1.3rem;
   margin-left: 1rem;
-  @media(min-width:$desktop){
-    margin-left: 27rem;
-    margin-top:-31.3rem;
-    font-weight: 400;
-  }
+
   &--text {
     color: white;
     line-height: 1.5;
