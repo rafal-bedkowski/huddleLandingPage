@@ -124,8 +124,6 @@ body {
     display: inline-block;
     @media(min-width:$desktop){
       border: solid 1.5px;
-      border-radius: 50%;
-      margin: 0.3rem;
     }
 
     &--element {
@@ -133,9 +131,6 @@ body {
       padding-left: 0.33rem;
       width: 6vw;
       height: 1vh;
-      @media(min-width: $desktop){
-        
-      }
     }
   }
 }

@@ -122,20 +122,12 @@ body {
     border-radius: 50%;
     margin: 0.3rem;
     display: inline-block;
-    @media(min-width:$desktop){
-      border: solid 1.5px;
-      border-radius: 50%;
-      margin: 0.3rem;
-    }
 
     &--element {
       padding-top: 0.19rem;
       padding-left: 0.33rem;
       width: 6vw;
       height: 1vh;
-      @media(min-width: $desktop){
-        
-      }
     }
   }
 }
@@ -162,7 +154,7 @@ body {
   margin-right: 3.5rem;
   margin-bottom: 5rem;
   @media(min-width: $desktop){
-    margin-left: 60rem;
+    margin-left: 14rem;
   }
 }
 
