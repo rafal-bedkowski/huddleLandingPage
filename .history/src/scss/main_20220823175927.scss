@@ -31,10 +31,6 @@ body {
   height: 5vh;
   border: none;
   margin-left: 2.5rem;
-  @media(min-width:$desktop){
-    margin-left: 28rem;
-    width: 10rem;
-  }
 
   &--registry {
     color: $violet;
@@ -63,13 +59,12 @@ body {
   font-weight: 600;
   text-align: center;
   width: 18rem;
-  margin-left: 1.35rem;
+  margin-left: 2.35rem;
   margin-top: 3.9rem;
-  
+  text-align: left;
   @media(min-width:$desktop){
-    margin-left: 28rem;
+    margin-left: 27rem;
     margin-top:-31.3rem;
-    text-align: left;
     
   }
 
@@ -95,17 +90,12 @@ body {
   margin-top: 1.3rem;
   margin-left: 1rem;
   @media(min-width:$desktop){
-    padding-left: 27rem;
+    padding-left: 30rem;
     font-weight: 400;
-    border: 10rem;
-    text-align: left;
   }
   &--text {
     color: white;
     line-height: 1.5;
-    @media(min-width:$desktop){
-      width:56rem;
-    }
   }
 }
 

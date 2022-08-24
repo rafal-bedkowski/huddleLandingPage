@@ -31,10 +31,6 @@ body {
   height: 5vh;
   border: none;
   margin-left: 2.5rem;
-  @media(min-width:$desktop){
-    margin-left: 28rem;
-    width: 10rem;
-  }
 
   &--registry {
     color: $violet;
@@ -95,16 +91,15 @@ body {
   margin-top: 1.3rem;
   margin-left: 1rem;
   @media(min-width:$desktop){
-    padding-left: 27rem;
+    padding-left: 30rem;
     font-weight: 400;
     border: 10rem;
-    text-align: left;
   }
   &--text {
     color: white;
     line-height: 1.5;
     @media(min-width:$desktop){
-      width:56rem;
+      width:60rem;
     }
   }
 }

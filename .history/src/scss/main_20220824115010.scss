@@ -31,10 +31,6 @@ body {
   height: 5vh;
   border: none;
   margin-left: 2.5rem;
-  @media(min-width:$desktop){
-    margin-left: 28rem;
-    width: 10rem;
-  }
 
   &--registry {
     color: $violet;
