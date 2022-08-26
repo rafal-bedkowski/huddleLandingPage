@@ -1,4 +1,4 @@
-# WTF Webpack Starter Kit 
+# WTF Webpack Starter Kit -- from 3 months trainig in basic of frontend stack
 
 Simple toolkit for your static websites development.
 
