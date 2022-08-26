@@ -1,7 +1,7 @@
 ![cover](src/assets/img/stronaProjektowaHuddleLanding.png)
 
 # HuddleLandingPage - Frontend Mentor Challenge
-> Live demo [_here_](https://rafal-bedkowski.github.io/qrComponent/).
+> Live demo [_here_](https://rafal-bedkowski.github.io/huddleLandingPage/).
 
 ## Table of Contents
 * [General Info](#general-information)
