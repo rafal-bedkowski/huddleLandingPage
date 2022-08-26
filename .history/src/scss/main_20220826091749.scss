@@ -99,7 +99,6 @@ body {
     font-weight: 400;
     border: 10rem;
     text-align: left;
-    margin-top: 1.5rem;
   }
   &--text {
     color: white;
@@ -184,7 +183,7 @@ body {
     padding-top: 3.8rem;
     @media(min-width: $desktop){
       width: 43.4rem;
-      padding-top:4.8rem ;
+      padding-top:5rem ;
     }
   }
 }
