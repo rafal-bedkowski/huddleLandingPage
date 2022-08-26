@@ -123,9 +123,6 @@ body {
   color: white;
   justify-content: space-evenly;
   padding-left: 2rem;
-  :hover{
-    color: $softMagenta;
-  }
   &__img {
     padding: 0.2rem;
     border: solid 1.5px;
@@ -148,7 +145,6 @@ body {
         padding-left: 0.3rem;
         height: 1.5vh;
         width: 1.5vw;
-        
       }
     }
   }
